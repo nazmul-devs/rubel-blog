@@ -1,0 +1,9 @@
+.top {
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+	background: gray;
+	height: 50px;
+	position: sticky;
+	top: 0;
+}
