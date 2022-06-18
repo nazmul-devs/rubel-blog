@@ -8,17 +8,22 @@ const TopBar = () => {
 				<ul>
 					<li>
 						<a href="">
-							<i class="fa-brands fa-facebook"></i>
+							<i class="topbarIcon fab fa-facebook-f"></i>
 						</a>
 					</li>
 					<li>
 						<a href="">
-							<i class="fa-brands fa-facebook"></i>
+							<i class="topbarIcon fab fa-instagram"></i>
 						</a>
 					</li>
 					<li>
 						<a href="">
-							<i class="fa-brands fa-facebook"></i>
+							<i class="topbarIcon fab fa-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<i class="topbarIcon fab fas fa-paper-plane"></i>
 						</a>
 					</li>
 				</ul>

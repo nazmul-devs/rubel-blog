@@ -1,11 +1,17 @@
 .top {
 	align-items: center;
+	background-color: #fff;
 	display: flex;
 	justify-content: space-around;
-	background: gray;
 	height: 50px;
+	width: 100%;
 	position: sticky;
 	top: 0;
+	z-index: 100;
+}
+
+.topLeft ul li {
+	margin: 0 7px;
 }
 
 .topCenter ul,
@@ -13,13 +19,21 @@
 	display: flex;
 	list-style: none;
 }
-.topCenter ul li,
-.topLeft ul li {
+.topCenter ul li {
 	margin: 0 15px;
 }
-.topCenter ul li a,
-.topLeft ul li a {
+
+.topLeft ul li a .topbarIcon {
+	background-color: #292929;
+	border-radius: 2px;
 	color: #fff;
+	padding: 3px;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.topCenter > ul li a {
+	color: gray;
 	text-decoration: none;
 	text-transform: uppercase;
 }
