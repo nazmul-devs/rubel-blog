@@ -1,9 +1,13 @@
+import Blog from "../blog/Blog";
 import "./blogs.css";
 
 const Blogs = () => {
 	return (
 		<div className="blogs">
-			<h2>This is blogs</h2>
+			<Blog />
+			<Blog />
+			<Blog />
+			<Blog />
 		</div>
 	);
 };

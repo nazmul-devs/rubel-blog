@@ -3,7 +3,9 @@ font-family: 'Kdam Thmor Pro', sans-serif;
 font-family: 'Lobster', cursive;
 font-family: 'Roboto', sans-serif;
 */
-
+.header {
+	background-color: #ecf0f1;
+}
 .headerTitles {
 	display: flex;
 	flex-direction: column;
@@ -15,11 +17,13 @@ font-family: 'Roboto', sans-serif;
 	position: absolute;
 	font-size: 20px;
 	top: 13%;
+	color: #000036ce;
 }
 .headerTitleLg {
 	position: absolute;
 	top: 14%;
 	font-size: 100px;
+	color: #00002b;
 }
 
 .haderImg {

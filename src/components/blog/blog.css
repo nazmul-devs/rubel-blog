@@ -1,0 +1,52 @@
+.blog {
+	width: 325px;
+	margin: 0 25px 40px 25px;
+}
+
+.blogImg {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 7px;
+}
+.blogInfo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.blogCart {
+	font-size: 12px;
+	line-height: 20px;
+	margin-top: 15px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.blogTitle {
+	font-size: 24px;
+	font-weight: 700;
+	margin-top: 15px;
+	cursor: pointer;
+	font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.blogDate {
+	font-style: italic;
+	font-size: 13px;
+	color: gray;
+	margin: 15px 0;
+	font-family: "Lobster", cursive;
+}
+
+.blogDes {
+	font-size: 14px;
+	font-family: "Roboto", sans-serif;
+	color: #444;
+	line-height: 15px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+}
