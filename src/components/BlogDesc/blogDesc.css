@@ -1,0 +1,42 @@
+.blogDesc {
+	flex: 9;
+}
+.blogDesc-container {
+	padding: 20px;
+}
+.blogTitle {
+	text-align: center;
+	font-size: 28px;
+	font-family: "Kdam Thmor Pro", sans-serif;
+}
+.blogEditIcons {
+	float: right;
+	font-size: 16px;
+}
+.blogEditIcon {
+	cursor: pointer;
+	margin-left: 15px;
+}
+.blogEditIcon:first-child {
+	color: teal;
+}
+.blogEditIcon:last-child {
+	color: tomato;
+}
+.desc-blogInfo {
+	display: flex;
+	margin-bottom: 22px;
+	font-size: 16px;
+	justify-content: space-between;
+	color: #b39656;
+}
+.blogDescription {
+	color: #666;
+	font-size: 18px;
+	line-height: 25px;
+}
+.blogDescription::first-letter {
+	margin-left: 25px;
+	font-size: 30px;
+	font-weight: 600;
+}
