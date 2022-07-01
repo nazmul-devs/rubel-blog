@@ -1,0 +1,51 @@
+.login {
+	height: calc(100vh - 50px);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background: url("https://cdn.worktechacademy.com/uploads/2020/04/Home-Landing-scaled.jpeg")
+		no-repeat center;
+	background-size: cover;
+}
+
+.loginTitle {
+	font-size: 30px;
+	text-align: center;
+	font-weight: 600;
+	margin: 20px;
+}
+.loginForm {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.loginForm > label {
+	margin: 10px 0;
+}
+.loginForm > input {
+	border: none;
+	padding: 10px;
+	background-color: white;
+}
+.loginForm > button {
+	background-color: lightcoral;
+	color: white;
+	padding: 10px;
+	border-radius: 7px;
+	border: none;
+	margin-top: 22px;
+	cursor: pointer;
+}
+
+.register-btn {
+	position: absolute;
+	background-color: teal;
+	right: 20px;
+	top: 60px;
+	cursor: pointer;
+	border: none;
+	color: white;
+	padding: 7px 14px;
+	border-radius: 7px;
+}
