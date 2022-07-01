@@ -1,5 +1,6 @@
 import React from "react";
 import "./topbar.css";
+import { Link } from "react-router-dom";
 
 const TopBar = () => {
 	return (
@@ -8,22 +9,22 @@ const TopBar = () => {
 				<ul>
 					<li>
 						<a href="">
-							<i class="topbarIcon fab fa-facebook-f"></i>
+							<i className="topbarIcon fab fa-facebook-f"></i>
 						</a>
 					</li>
 					<li>
 						<a href="">
-							<i class="topbarIcon fab fa-instagram"></i>
+							<i className="topbarIcon fab fa-instagram"></i>
 						</a>
 					</li>
 					<li>
 						<a href="">
-							<i class="topbarIcon fab fa-twitter"></i>
+							<i className="topbarIcon fab fa-twitter"></i>
 						</a>
 					</li>
 					<li>
 						<a href="">
-							<i class="topbarIcon fab fas fa-paper-plane"></i>
+							<i className="topbarIcon fab fas fa-paper-plane"></i>
 						</a>
 					</li>
 				</ul>
@@ -31,7 +32,9 @@ const TopBar = () => {
 			<div className="topCenter">
 				<ul>
 					<li>
-						<a href="">home</a>
+						<Link to="/">
+							<a href="">home</a>
+						</Link>
 					</li>
 					<li>
 						<a href="">blogs</a>
